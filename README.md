@@ -4,13 +4,15 @@ CopyPasta for different button types
 ```java
 toggleButton.setOnClickListener(new View.OnClickListener() {
   public void onClick(View view) {
-      // save whether 
+      // am I checked?
       boolean on = ((ToggleButton) view).isChecked();
       
       if (on) {
-          // something to do
+          // write something to do if checked below
+          
       } else {
-          // some other thing to do
+          // write something to do if not checked below
+          
       }
   }
 }
