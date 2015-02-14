@@ -10,7 +10,8 @@ bob.setOnClickListener(new View.OnClickListener() {
       // write something to do if clicked below
     
   }
-}
+  
+});
 ```
 
 ## ToggleButton
@@ -30,5 +31,5 @@ rufus.setOnClickListener(new View.OnClickListener() {
           
       }
   }
-}
+});
 ```
